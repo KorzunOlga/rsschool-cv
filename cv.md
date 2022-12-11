@@ -40,3 +40,9 @@ describe("Multiply", () => {
 ---
 
 ## Education
+
+## Bachelor, Customs Service, BNTU
+
+## English
+
+## [EF Standard English Test (EF SET)][https://www.efset.org/cert/637egh]: The achieved English level is 72/100 on the EF SET score scale and C2 Proficient according to the Common European Framework of Reference (CEFR).
