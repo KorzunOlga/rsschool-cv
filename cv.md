@@ -5,8 +5,11 @@
 ## Contacts
 
 **Phone:** +375295625797
+
 **E-mail:** korzunvolha@gmail.com
+
 **GitHub:** https://github.com/KorzunOlga
+
 **LinkedIn** https://www.linkedin.com/in/volhakorzun/
 
 ---
