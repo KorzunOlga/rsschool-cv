@@ -14,54 +14,140 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#codeexamples" class="nav-link">Code Examples</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-        </ul>
-      </nav>
-
-
+      <div class="header_image">
+        <img class="header_photo" src="assets/img/IMG_20220414_183254_462.jpg" alt="photo">
+      </div>
+      <div class="header_content">
+        <div class="header_menu">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#codeexamples" class="nav-link">Code Examples</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header_info">
+          <h1 class="header_title">
+            Volha Korzun
+          </h1>
+          <h2 class="header_subtitle">
+            Front-end developer (trainee)
+          </h2>
+        </div>
+      </div>
     </div>
-
   </header>
   <main class="main">
-    <div class="container">
-      <section class="section" id="profile">
-        <h1 class="section-title">Volha Korzun</h1>
-
-      </section>
+    <div class="main_container">
       <section class="section" id="contacts">
-        <h2 class="section-title">Contacts</h2>
-
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">Contacts</h3>
+          </div>
+          <div class="section_content">
+            <ul>
+              <li>
+                <h4>Phone: </h4>+375295625797
+              </li>
+              <li>
+                <h4>E-mail: </h4>korzunvolha@gmail.com
+              </li>
+              <li>
+                <h4>GitHub: </h4>https://github.com/KorzunOlga
+              </li>
+              <li>
+                <h4>LinkedIn </h4>https://www.linkedin.com/in/volhakorzun/
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section class="section" id="summary">
-        <h2 class="section-title">Summary</h2>
-
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">Summary</h3>
+          </div>
+          <div class="section_content">
+            <p>My goal is to become Junior Front End Developer.</p>
+          </div>
+        </div>
       </section>
       <section class="section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">Skills</h3>
+          </div>
+          <div class="section_content">
+            <ul>
+              <li>Windows OS</li>
+              <li>Version control: Git (remote service GitHub)</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section class="section" id="codeexamples">
-        <h2 class="section-title">Code Examples</h2>
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">Code Examples</h3>
+          </div>
+          <div class="section_content">
+            <pre>
+              <code>
+                const assert = require("chai").assert;
 
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);
+    assert.strictEqual(multiply(2,2), 4);
+    assert.strictEqual(multiply(3,5), 15);
+  });
+});
+              </code>
+            </pre>
+          </div>
+        </div>
       </section>
       <section class="section" id="education">
-        <h2 class="section-title">Education</h2>
-
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">Education</h3>
+          </div>
+          <div class="section_content">
+            <ul>
+              <li>
+                <h4>BNTU:</h4> Bachelor, Customs Service
+              </li>
+              <li>
+                <h4>FreeFam:</h4> creating sites on CMS WordPress from scratch
+              </li>
+              <li>
+                <h4>R S School</h4> JavaScript/Front-end
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section class="section" id="english">
-        <h2 class="section-title">English</h2>
-
+        <div class="section_container">
+          <div class="section_title">
+            <h3 class="section-title">English</h3>
+          </div>
+          <div class="section_content">
+            <p>
+            <h4>EF Standard English Test (EF SET)]</h4>The achieved English level is 72/100 on the EF SET score scale
+            and C2 Proficient according to the Common European Framework of Reference
+            (CEFR).https://www.efset.org/cert/637egh.</p>
+          </div>
+        </div>
       </section>
-
     </div>
-
   </main>
   <footer class="footer">
     <div class="container">
