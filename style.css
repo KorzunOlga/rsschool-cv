@@ -1,17 +1,23 @@
 @font-face {
   font-family: 'Inter';
-  src: url("assets\fonts\Inter-ExtraLight.ttf");
+  src: url("assets/fonts/Inter-ExtraLight.ttf");
   font-weight: 200;
 }
 @font-face {
   font-family: 'Inter';
-  src: url("assets\fonts\Inter-Regular.ttf");
+  src: url("assets/fonts/Inter-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: 'Inter';
-  src: url("assets\fonts\Inter-SemiBold.ttf");
+  src: url("assets/fonts/Inter-SemiBold.ttf");
   font-weight: 600;
+}
+:root {
+  --white: #FFFFFF;
+  --main-background-color:#00242E;
+  --accent-color:#8d6d25;
+
 }
 body {
   font-family: 'Inter';
@@ -25,18 +31,35 @@ body {
   box-sizing: border-box;
 }
 .header {
-  border: 1px solid blue;
+  background-color: var(--main-background-color);
 }
+h1, h2 {
+  color: var(--white);
+}
+.nav-item a{
+  color: var(--accent-color);
+}
+.nav-item a:active{
+  color: var(--white);
+}
+.nav-item a:hover{
+  color: var(--white);
+}
+
 .main {
-  border: 1px solid blue;
+
 }
 .footer {
-  border: 1px solid blue;
+  background-color: var(--main-background-color);
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+
+
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -63,3 +86,5 @@ html {
 .section-item a:hover {
   color: #4d2323;
 }
+
+
